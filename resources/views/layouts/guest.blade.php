@@ -16,4 +16,7 @@
     <body class="bg-light font-sans antialiased">
         {{ $slot }}
     </body>
+
+    <script src="{{ URL::asset('assets/libs/particles.js/particles.js.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/particles.app.js') }}"></script>
 </html>
